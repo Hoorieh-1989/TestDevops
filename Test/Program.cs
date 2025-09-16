@@ -10,7 +10,7 @@ namespace Test
             // Add services to the container.
             builder.Services.AddControllersWithViews();
 
-            //push the new changes
+            //push the new changes to devops
             var app = builder.Build();
             //changes done//
             // Configure the HTTP request pipeline.
