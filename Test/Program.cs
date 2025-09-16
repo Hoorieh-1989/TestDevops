@@ -5,6 +5,7 @@ namespace Test
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+            //changes done
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
